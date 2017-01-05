@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [My Bank Application]" parallel="methods">
+  <test name="Smoke test(failed)" parallel="methods">
+    <classes>
+      <class name="p1.Class_3">
+        <methods>
+          <include name="method_C"/>
+        </methods>
+      </class> <!-- p1.Class_3 -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [My Bank Application] -->
